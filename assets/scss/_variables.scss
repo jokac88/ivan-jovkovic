@@ -1,0 +1,23 @@
+$font: 'Montserrat', sans-serif;
+
+$color-white: #ffffff;
+$color-white-rgb: 255, 255, 255;
+$color-concrete: #f2f2f2;
+$color-parchment: #f1e7d0;
+$color-parchment-rgb: 241, 231, 208;
+$color-secondary: #02be8a;
+$color-secondary-hover: #02976d;
+$color-bg-header: #66ccff;
+$color-lochmara: #0082c3;
+$color-primary: #005C8F;
+$color-primary-sepia: #004466;
+$color-pickled-blue-wood: #2f495e;
+$color-pickled-blue-wood-rgb: 47, 73, 94;
+$color-pickled-blue-wood-2: #223544;
+$color-black: #000000;
+
+$gradient-right: linear-gradient(135deg, $color-lochmara 0, $color-secondary 100%);
+$gradient-left: linear-gradient(135deg, $color-secondary 0, $color-lochmara 100%);
+
+$transition-short: .3s ease;
+$transition-long: .5s ease;

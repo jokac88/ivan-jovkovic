@@ -1,0 +1,1272 @@
+{
+  "en": {
+    "name": "Ivan Jovkovic",
+    "personalInfo": {
+      "title": "Personal info",
+      "dateOfBirth": {
+        "property": "Date of birth",
+        "value": "September 2<sup>nd</sup> 1988"
+      },
+      "city": {
+        "property": "City",
+        "value": "Kragujevac"
+      },
+      "nationality": {
+        "property": "Nationality",
+        "value": "Serbian"
+      },
+      "residence": {
+        "property": "Residence",
+        "value": "Belgrade"
+      },
+      "mobile": {
+        "property": "Mobile"
+      },
+      "email": {
+        "property": "Email"
+      },
+      "website": {
+        "property": "Website"
+      },
+      "linkedin": {
+        "property": "LinkedIn"
+      },
+      "github": {
+        "property": "GitHub"
+      },
+      "skype": {
+        "property": "Skype",
+        "value": "jokac88"
+      }
+    },
+    "languages": {
+      "title": "Languages",
+      "languages": [
+        {
+          "name": "Serbian language",
+          "level": "Native",
+          "percentage": "100%"
+        },
+        {
+          "name": "English language",
+          "level": "Intermediate level",
+          "percentage": "50%"
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "projects": [
+        {
+          "name": "Ana & Ivan"
+        },
+        {
+          "name": "Eder Hotel"
+        },
+        {
+          "name": "Formosa"
+        },
+        {
+          "name": "The Stock Trader"
+        },
+        {
+          "name": "Monster Game"
+        },
+        {
+          "name": "Wonderful Quotes"
+        },
+        {
+          "name": "Basket Top"
+        },
+        {
+          "name": "Hair Saloon"
+        },
+        {
+          "name": "RealEstate",
+          "title": "RealEstate"
+        },
+        {
+          "name": "Spotter"
+        },
+        {
+          "name": "Car Parts"
+        },
+        {
+          "name": "Spa"
+        },
+        {
+          "name": "Construction"
+        },
+        {
+          "name": "Layout"
+        }
+      ]
+    },
+    "hobbies": {
+      "title": "Hobbies",
+      "hobbies": [
+        "Sports",
+        "Music",
+        "Traveling",
+        "Reading",
+        "Watching movies",
+        "Hiking"
+      ]
+    },
+    "drivingLicense": {
+      "title": "Driving license",
+      "text": "Driving license <strong>B</strong> (active driver since 2009)"
+    },
+    "aboutMe": {
+      "title": "About me",
+      "text": "I have been working as a Front-End Developer for 5 years. I enjoy building websites and I am eager to learn new skills every day. I take challenges as inspirations and always looking for improvements. Very persistent and hardworking. Good at working both individually and in a team. I always complete every task."
+    },
+    "education": {
+      "title": "Education",
+      "properties": {
+        "year": "Year",
+        "college": "College",
+        "department": "Department",
+        "degree": "Degree",
+        "course": "Course",
+        "description": "Description",
+        "company": "Company"
+      },
+      "education": [
+        {
+          "year": "October 2008 - July 2011",
+          "college": "<em>\"Technical College of Applied Sciences\"</em>, Kragujevac",
+          "department": "Informatics",
+          "degree": "Bachelor degree in Computer Science",
+          "isVisible": true
+        },
+        {
+          "year": "January 2017 - March 2017",
+          "course": "<em>\"ICT Cluster of Central Serbia\"</em>, Kragujevac",
+          "description": {
+            "text": "Intensive course for beginners in language independent programming in languages:",
+            "technologies": [
+              "HTML5",
+              "CSS3"
+            ]
+          },
+          "isVisible": true
+        },
+        {
+          "year": "March 2017 - May 2017",
+          "course": "<em>\"ICT Cluster of Central Serbia\"</em>, Kragujevac",
+          "description": {
+            "text": "Intensive course for beginners in language independent programming in language:",
+            "technologies": [
+              "JavaScript"
+            ]
+          },
+          "isVisible": true
+        },
+        {
+          "year": "July 2017 - August 2017",
+          "company": "<em>\"Emisia Consulting\"</em>, Kragujevac",
+          "course": "UI Workshop",
+          "description": {
+            "text": "Developing an application for displaying information about festivals in Serbia using:",
+            "technologies": [
+              "ExtJS",
+              "Google Maps API",
+              "SCSS",
+              "Firebase"
+            ]
+          },
+          "isVisible": true
+        }
+      ]
+    },
+    "employmentHistory": {
+      "title": "Employment history",
+      "properties": {
+        "year": "Year",
+        "company": "Company",
+        "position": "Position",
+        "description": "Description",
+        "club": "Club"
+      },
+      "employmentHistory": [
+        {
+          "year": "August 2021 - June 2023",
+          "company": "<em>\"Wireless Media\"</em>, Belgrade",
+          "position": "Front-End Developer",
+          "description": [
+            "Developing new user-facing features",
+            "Collaborating with back-end developers and web designers to improve usability",
+            "Optimizing applications for maximum speed",
+            "Writing functional requirement documents and guides"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "December 2020 - August 2021",
+          "company": "<em>\"NF Innova\"</em>, Belgrade",
+          "position": "Web Developer",
+          "description": [
+            "Writing well designed, testable, efficient code by using best software development practices",
+            "Creating website layout/user interface by using standard HTML/CSS practices",
+            "Integrating data from various back-end services and databases",
+            "Gathering and refining specifications and requirements based on technical needs"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "May 2019 - April 2020",
+          "company": "<em>\"Q Agency\"</em>, Zagreb (remote)",
+          "position": "Junior JavaScript Developer",
+          "description": [
+            "Developing new user-facing features",
+            "Building reusable code and libraries for future use",
+            "Optimizing application for maximum speed and scalability",
+            "Designing mobile-based features"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "March 2018 - May 2019",
+          "company": "<em>\"Webtory\"</em>, Kragujevac",
+          "position": "Front-End Web Developer",
+          "description": [
+            "Developing new user-facing features",
+            "Building reusable code and libraries for future use",
+            "Ensuring the technical feasibility of UI/UX designs",
+            "Optimizing application for maximum speed and scalability"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "September 2017 - Feb 2018",
+          "company": "<em>\"Digital Share\"</em> (internship), Kragujevac",
+          "position": "Front-End Web Developer",
+          "description": [
+            "Maintenance of website through the updating, testing, publishing and manipulating of existing source code",
+            "Developing functional and appealing web and mobile based applications based on usability",
+            "Identifying and troubleshooting various website issues and coding problems"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "September 2015 - February 2017",
+          "company": "<em>\"Arena Fun Factory\"</em>, Kragujevac",
+          "position": "Instructor of sports activities",
+          "description": [
+            "Developing training programmes",
+            "Assisting with sports promotion"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "October 2014 - August 2015",
+          "club": "<em>\"K.K. Zicer\"</em>, Gruza",
+          "position": "Assistant coach of youth teams",
+          "description": [
+            "Organizing and directing individual and small group practice activities/exercises as directed by the head Basketball coach",
+            "Assisting the Head Basketball coach with instructing players about the rules, regulations, equipment, and sport techniques"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "Junе 2013 - Junе 2014",
+          "company": "<em>\"Republic Geodetic Authority\"</em>, Kragujevac",
+          "position": "Computer scientist",
+          "description": [
+            "Installing and configuring computer hardware, operating systems and applications",
+            "Installing and configuring computer hardware, operating systems and applications ­ Monitoring and maintaining computer systems and networks",
+            "Troubleshooting system and network problems, diagnosing and solving hardware or software faults"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "July 2011 - Junе 2013",
+          "club": "<em>\"Ž.K.K. Radnički\"</em>, Kragujevac",
+          "position": "Head coach of youth selections",
+          "descriptionProperty": "Description",
+          "description": [
+            "Assistance in coaching kids daily at team practices and games during weekend",
+            "Constant evaluation of players"
+          ],
+          "isVisible": true
+        }
+      ]
+    },
+    "technicalSkills": {
+      "title": "Technical skills"
+    },
+    "navigation": [
+      {
+        "name": "Home"
+      },
+      {
+        "name": "Personal info"
+      },
+      {
+        "name": "Languages"
+      },
+      {
+        "name": "Projects"
+      },
+      {
+        "name": "Hobbies"
+      },
+      {
+        "name": "Driving license"
+      },
+      {
+        "name": "About me"
+      },
+      {
+        "name": "Education"
+      },
+      {
+        "name": "Employment history"
+      },
+      {
+        "name": "Technical skills"
+      }
+    ],
+    "colorModePicker": [
+      {
+        "name": "system",
+        "text": "System"
+      },
+      {
+        "name": "light",
+        "text": "Light"
+      },
+      {
+        "name": "dark",
+        "text": "Dark"
+      },
+      {
+        "name": "sepia",
+        "text": "Sepia"
+      }
+    ]
+  },
+  "cir": {
+    "name": "Иван Јовковић",
+    "personalInfo": {
+      "title": "Лични подаци",
+      "dateOfBirth": {
+        "property": "Датум рођења",
+        "value": "02.09.1988. године"
+      },
+      "city": {
+        "property": "Град",
+        "value": "Крагујевац"
+      },
+      "nationality": {
+        "property": "Држављанство",
+        "value": "српско"
+      },
+      "residence": {
+        "property": "Пребивалиште",
+        "value": "Београд"
+      },
+      "mobile": {
+        "property": "Мобилни"
+      },
+      "email": {
+        "property": "И-мејл"
+      },
+      "website": {
+        "property": "Веб-сајт"
+      },
+      "linkedin": {
+        "property": "ЛинкедИн"
+      },
+      "github": {
+        "property": "ГитХаб"
+      },
+      "skype": {
+        "property": "Скајп",
+        "value": "јокац88"
+      }
+    },
+    "languages": {
+      "title": "Језици",
+      "languages": [
+        {
+          "name": "Српски језик",
+          "level": "Матерњи",
+          "percentage": "100%"
+        },
+        {
+          "name": "Енглески језик",
+          "level": "Средњи ниво",
+          "percentage": "50%"
+        }
+      ]
+    },
+    "projects": {
+      "title": "Пројекти",
+      "projects": [
+        {
+          "name": "Ана и Иван"
+        },
+        {
+          "name": "<em>\"Eder Hotel\"</em>",
+          "title": "Eder Hotel"
+        },
+        {
+          "name": "<em>\"Formosa\"</em>",
+          "title": "Formosa"
+        },
+        {
+          "name": "<em>\"The Stock Trader\"</em>",
+          "title": "The Stock Trader"
+        },
+        {
+          "name": "<em>\"Monster Game\"</em>",
+          "title": "Monster Game"
+        },
+        {
+          "name": "<em>\"Wonderful Quotes\"</em>",
+          "title": "Wonderful Quotes"
+        },
+        {
+          "name": "<em>\"Basket Top\"</em>",
+          "title": "Basket Top"
+        },
+        {
+          "name": "<em>\"Hair Saloon\"</em>",
+          "title": "Hair Saloon"
+        },
+        {
+          "name": "<em>\"RealEstate\"</em>",
+          "title": "RealEstate"
+        },
+        {
+          "name": "<em>\"Spotter\"</em>",
+          "title": "Spotter"
+        },
+        {
+          "name": "<em>\"Car Parts\"</em>",
+          "title": "Car Parts"
+        },
+        {
+          "name": "<em>\"Spa\"</em>",
+          "title": "Spa"
+        },
+        {
+          "name": "<em>\"Construction\"</em>",
+          "title": "Construction"
+        },
+        {
+          "name": "<em>\"Layout\"</em>",
+          "title": "Layout"
+        }
+      ]
+    },
+    "hobbies": {
+      "title": "Хобији",
+      "hobbies": [
+        "Спорт",
+        "Музика",
+        "Путовање",
+        "Читање",
+        "Гледање филмова",
+        "Пешачење"
+      ]
+    },
+    "drivingLicense": {
+      "title": "Возачка дозвола",
+      "text": "Возачка дозвола <strong>Б</strong> (активни возач од 2009. године)"
+    },
+    "aboutMe": {
+      "title": "О мени",
+      "text": "Радим као <em>\"Front-End Developer\"</em> око 5 година. Уживам у изградњи веб страница и тежим ка томе да научим нове ствари сваког дана. Изазове сматрам као инспирацију и увек гледам да напредујем. Веома сам упоран и вредан. Добар у појединачном и тимском раду. Увек завршим сваки задатак."
+    },
+    "education": {
+      "title": "Образовање",
+      "properties": {
+        "year": "Година",
+        "college": "Факултет",
+        "department": "Одсек",
+        "degree": "Степен",
+        "course": "Курс",
+        "description": "Опис",
+        "company": "Фирма"
+      },
+      "education": [
+        {
+          "year": "Октобар 2008 - Јул 2011",
+          "college": "<em>\"Висока техничка школа струковних студија\"</em>, Крагујевац",
+          "department": "Информатика",
+          "degree": "Дипломирани струковни информатичар",
+          "isVisible": true
+        },
+        {
+          "year": "Јануар 2017 - Март 2017",
+          "course": "<em>\"ИКТ Кластер Централне Србије\"</em>, Крагујевац",
+          "description": {
+            "text": "Интезивни курс за почетнике у програмирању за самостално обављање програмирања:",
+            "technologies": [
+              "<em>\"HTML5\"</em>",
+              "<em>\"CSS3\"</em>"
+            ]
+          },
+          "isVisible": true
+        },
+        {
+          "year": "Март 2017 - Мај 2017",
+          "course": "<em>\"ИКТ Кластер Централне Србије\"</em>, Крагујевац",
+          "description": {
+            "text": "Интензивни курс за почетнике у програмирању за самостално обављање програмирања на програмском језику:",
+            "technologies": [
+              "<em>\"JavaScript\"</em>"
+            ]
+          },
+          "isVisible": true
+        },
+        {
+          "year": "Јул 2017 - Август 2017",
+          "company": "<em>\"Emisia Consulting\"</em>, Крагујевац",
+          "course": "<em>\"UI\"</em> Радионица",
+          "description": {
+            "text": "Развијање апликација за приказ информација о фестивалима на простору Србије:",
+            "technologies": [
+              "<em>\"ExtJS\"</em>",
+              "<em>\"Google Maps API\"</em>",
+              "<em>\"SCSS\"</em>",
+              "<em>\"Firebase\"</em>"
+            ]
+          },
+          "isVisible": true
+        }
+      ]
+    },
+    "employmentHistory": {
+      "title": "Историја запошљавања",
+      "properties": {
+        "year": "Година",
+        "company": "Фирма",
+        "position": "Позиција",
+        "description": "Опис",
+        "club": "Клуб"
+      },
+      "employmentHistory": [
+        {
+          "year": "Август 2021 - Јун 2023",
+          "company": "<em>\"Wireless Media\"</em>, Београд",
+          "position": "<em>\"Front-End Developer\"</em>",
+          "description": [
+            "Развијање нових функција окренутих корисницима",
+            "Сарадња са бацк-енд програмерима и веб дизајнерима ради побољшања употребљивости",
+            "Оптимизација апликација за максималну брзину",
+            "Писање докумената и водича са функционалним захтевима"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "Децембар 2020 - Август 2021",
+          "company": "<em>\"NF Innova\"</em>, Београд",
+          "position": "<em>\"Web Developer\"</em>",
+          "description": [
+            "Писање добро дизајнираног, проверљивог, ефикасног кода коришћењем најбољих пракси развоја софтвера",
+            "Креирање изгледа веб странице/корисничког интерфејса коришћењем стандардних <em>\"HTML/CSS\"</em> пракси",
+            "Интегрисање података из разних бацк-енд сервиса и база података",
+            "Прикупљање и усавршавање спецификација и захтева на основу техничких потреба"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "Мај 2019 - Април 2020",
+          "company": "<em>\"Q Agency\"</em>, Загреб (на даљину)",
+          "position": "<em>\"Junior JavaScript Developer\"</em>",
+          "description": [
+            "Развијање нових могућности за кориснике",
+            "Израда кода и библиотека за будућу употребу",
+            "Оптимизација апликација за максималну брзину и прилагодљивост",
+            "Дизајнирање мобилних функција"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "Март 2018 - Maj 2019",
+          "company": "<em>\"Webtory\"</em>, Крагујевац",
+          "position": "<em>\"Front-End Web Developer\"</em>",
+          "description": [
+            "Развијање нових могућности за кориснике",
+            "Израда кода и библиотека за будућу употребу",
+            "Обезбеђивање техничке изведбе <em>\"UI/UX\"</em> дизајна"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "Септембар 2017 - Феб 2018",
+          "company": "<em>\"Digital Share\"</em> (пракса), Крагујевац",
+          "position": "<em>\"Front-End Web Developer\"</em>",
+          "description": [
+            "Одржавање сајта путем ажурирања, тестирања, објављивања и манипулације постојећег изворног кода",
+            "Развијање функционалне и привлачне веб и мобилне апликације базиране на употребљивости",
+            "Препознавање и решавање проблема са различитим веб питањима и проблемима кодирања"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "Септембар 2015 - Фебруар 2017",
+          "company": "<em>\"Arena Fun Factory\"</em>, Крагујевац",
+          "position": "Инструктор спортских активности",
+          "description": [
+            "Развој програма обуке",
+            "Помоћ у спортској промоцији"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "Октобар 2014 - Август 2015",
+          "club": "<em>\"K.K. Зицер\"</em>, Гружа",
+          "position": "Помоћни тренер млађих селекција",
+          "description": [
+            "Организовање и усмеравање индивидуалних и малих група у вежбању по налогу главног тренера",
+            "Помагање главном тренеру са инструкцијама играча о правилима, прописима, опреми и спортским техникама"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "Јун 2013 - Јун 2014",
+          "company": "<em>\"Републички геодетски завод\"</em>, Крагујевац",
+          "position": "Информатичар",
+          "description": [
+            "Инсталирање и конфигурисање рачунарског хардвера, оперативних система и апликација",
+            "Праћење и одржавање рачунарског система и мрежа",
+            "Проблеми са системским и мрежним решавањем проблема, дијагностиковање и решавање хардверских или софтверских грешака"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "Јул 2011 - Јун 2013",
+          "club": "<em>\"Ж.K.K. Раднички\"</em>, Крагујевац",
+          "position": "Главни тренер млађих селекција",
+          "description": [
+            "Помоћ у свакодневној обуци деце на тренинзима и утакмицама током викенда",
+            "Стална процена играча"
+          ],
+          "isVisible": true
+        }
+      ]
+    },
+    "technicalSkills": {
+      "title": "Техничке вештине"
+    },
+    "navigation": [
+      {
+        "name": "Почетак"
+      },
+      {
+        "name": "Лични подаци"
+      },
+      {
+        "name": "Језици"
+      },
+      {
+        "name": "Пројекти"
+      },
+      {
+        "name": "Хобији"
+      },
+      {
+        "name": "Возачка дозвола"
+      },
+      {
+        "name": "О мени"
+      },
+      {
+        "name": "Образовање"
+      },
+      {
+        "name": "Историја запошљавања"
+      },
+      {
+        "name": "Техничке вештине"
+      }
+    ],
+    "colorModePicker": [
+      {
+        "name": "system",
+        "text": "Систем"
+      },
+      {
+        "name": "light",
+        "text": "Светло"
+      },
+      {
+        "name": "dark",
+        "text": "Тамно"
+      },
+      {
+        "name": "sepia",
+        "text": "Сепиа"
+      }
+    ]
+  },
+  "lat": {
+    "name": "Ivan Jovković",
+    "personalInfo": {
+      "title": "Lični podaci",
+      "dateOfBirth": {
+        "property": "Datum rođenja",
+        "value": "02.09.1988. godine"
+      },
+      "city": {
+        "property": "Grad",
+        "value": "Kragujevac"
+      },
+      "nationality": {
+        "property": "Državljanstvo",
+        "value": "srpsko"
+      },
+      "residence": {
+        "property": "Prebivalište",
+        "value": "Beograd"
+      },
+      "mobile": {
+        "property": "Mobilni"
+      },
+      "email": {
+        "property": "I-mejl"
+      },
+      "website": {
+        "property": "Veb-sajt"
+      },
+      "linkedin": {
+        "property": "LinkedIn"
+      },
+      "github": {
+        "property": "GitHab"
+      },
+      "skype": {
+        "property": "Skajp",
+        "value": "jokac88"
+      }
+    },
+    "languages": {
+      "title": "Jezici",
+      "languages": [
+        {
+          "name": "Srpski jezik",
+          "level": "Maternji",
+          "percentage": "100%"
+        },
+        {
+          "name": "Engleski jezik",
+          "level": "Srednji nivo",
+          "percentage": "50%"
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projekti",
+      "projects": [
+        {
+          "name": "Ana i Ivan"
+        },
+        {
+          "name": "<em>\"Eder Hotel\"</em>",
+          "title": "Eder Hotel"
+        },
+        {
+          "name": "<em>\"Formosa\"</em>",
+          "title": "Formosa"
+        },
+        {
+          "name": "<em>\"The Stock Trader\"</em>",
+          "title": "The Stock Trader"
+        },
+        {
+          "name": "<em>\"Monster Game\"</em>",
+          "title": "Monster Game"
+        },
+        {
+          "name": "<em>\"Wonderful Quotes\"</em>",
+          "title": "Wonderful Quotes"
+        },
+        {
+          "name": "<em>\"Basket Top\"</em>",
+          "title": "Basket Top"
+        },
+        {
+          "name": "<em>\"Hair Saloon\"</em>",
+          "title": "Hair Saloon"
+        },
+        {
+          "name": "<em>\"RealEstate\"</em>",
+          "title": "RealEstate"
+        },
+        {
+          "name": "<em>\"Spotter\"</em>",
+          "title": "Spotter"
+        },
+        {
+          "name": "<em>\"Car Parts\"</em>",
+          "title": "Car Parts"
+        },
+        {
+          "name": "<em>\"Spa\"</em>",
+          "title": "Spa"
+        },
+        {
+          "name": "<em>\"Construction\"</em>",
+          "title": "Construction"
+        },
+        {
+          "name": "<em>\"Layout\"</em>",
+          "title": "Layout"
+        }
+      ]
+    },
+    "hobbies": {
+      "title": "Hobiji",
+      "hobbies": [
+        "Sport",
+        "Muzika",
+        "Putovanje",
+        "Čitanje",
+        "Gledanje filmova",
+        "Pešačenje"
+      ]
+    },
+    "drivingLicense": {
+      "title": "Vozačka dozvola",
+      "text": "Vozačka dozvola <strong>B</strong> (aktivni vozač od 2009. godine)"
+    },
+    "aboutMe": {
+      "title": "O meni",
+      "text": "Radim kao <em>\"Front-End Developer\"</em> oko 5 godina. Uživam u izgradnji web stranica i težim ka tome da naučim nove stvari svakoga dana. Izazove smatram kao inspiraciju i uvek gledam da napredujem. Veoma sam uporan i vredan. Dobar u pojedinačnom i timskom radu. Uvek završim svaki zadatak."
+    },
+    "education": {
+      "title": "Obrazovanje",
+      "properties": {
+        "year": "Godina",
+        "college": "Fakultet",
+        "department": "Odsek",
+        "degree": "Stepen",
+        "course": "Kurs",
+        "description": "Opis",
+        "company": "Firma"
+      },
+      "education": [
+        {
+          "year": "Oktobar 2008 - Jul 2011",
+          "college": "<em>\"Visoka tehnička škola strukovnih studija\"</em>, Kragujevac",
+          "department": "Informatika",
+          "degree": "Diplomirani strukovni informatičar",
+          "isVisible": true
+        },
+        {
+          "year": "Januar 2017 - Mart 2017",
+          "course": "<em>\"IKT Klaster Centralne Srbije\"</em>, Kragujevac",
+          "description": {
+            "text": "Intenzivni kurs za početnike u programiranju za samostalno obavljanje programiranja:",
+            "technologies": [
+              "<em>\"HTML5\"</em>",
+              "<em>\"CSS3\"</em>"
+            ]
+          },
+          "isVisible": true
+        },
+        {
+          "year": "Mart 2017 - Maj 2017",
+          "course": "<em>\"IKT Klaster Centralne Srbije\"</em>, Kragujevac",
+          "description": {
+            "text": "Intenzivni kurs za početnike u programiranju za samostalno obavljanje programiranja u programskom jeziku:",
+            "technologies": [
+              "<em>\"JavaScript\"</em>"
+            ]
+          },
+          "isVisible": true
+        },
+        {
+          "year": "Jul 2017 - Avgust 2017",
+          "company": "<em>\"Emisia Consulting\"</em>, Kragujevac",
+          "course": "<em>\"UI\"</em> Radionica",
+          "description": {
+            "text": "Razvijanje aplikacije za prikaz informacija o festivalima na prostoru Srbije:",
+            "technologies": [
+              "<em>\"ExtJS\"</em>",
+              "<em>\"Google Maps API\"</em>",
+              "<em>\"SCSS\"</em>",
+              "<em>\"Firebase\"</em>"
+            ]
+          },
+          "isVisible": true
+        }
+      ]
+    },
+    "employmentHistory": {
+      "title": "Istorija zapošljavanja",
+      "properties": {
+        "year": "Godina",
+        "company": "Firma",
+        "position": "Pozicija",
+        "description": "Opis",
+        "club": "Klub"
+      },
+      "employmentHistory": [
+        {
+          "year": "Avgust 2021 - Jun 2023",
+          "company": "<em>\"Wireless Media\"</em>, Beograd",
+          "position": "<em>\"Front-End Developer\"</em>",
+          "description": [
+            "Razvijanje novih funkcija okrenutih korisnicima",
+            "Saradnja sa back-end programerima i veb dizajnerima radi poboljšanja upotrebljivosti",
+            "Optimizacija aplikacija za maksimalnu brzinu",
+            "Pisanje dokumenata i vodiča sa funkcionalnim zahtevima"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "Decembar 2020 - Avgust 2021",
+          "company": "<em>\"NF Innova\"</em>, Beograd",
+          "position": "<em>\"Web Developer\"</em>",
+          "description": [
+            "Pisanje dobro dizajniranog, proverljivog, efikasnog koda korišćenjem najboljih praksi razvoja softvera",
+            "Kreiranje izgleda veb stranice/korisničkog interfejsa korišćenjem standardnih <em>\"HTML/CSS\"</em> praksi",
+            "Integrisanje podataka iz raznih back-end servisa i baza podataka",
+            "Prikupljanje i usavršavanje specifikacija i zahteva na osnovu tehničkih potreba"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "Maj 2019 - April 2020",
+          "company": "<em>\"Q Agency\"</em>, Zagreb (na daljinu)",
+          "position": "<em>\"Junior JavaScript Developer\"</em>",
+          "description": [
+            "Razvijanje novih mogućnosti za korisnike",
+            "Izrada koda i biblioteka za buduću upotrebu",
+            "Optimizacija aplikacija za maksimalnu brzinu i prilagodljivost",
+            "Dizajniranje mobilnih funkcija"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "Mart 2018 - Maj 2019",
+          "company": "<em>\"Webtory\"</em>, Kragujevac",
+          "position": "<em>\"Front-End Web Developer\"</em>",
+          "description": [
+            "Razvijanje novih mogućnosti za korisnike",
+            "Izrada koda i biblioteka za buduću upotrebu",
+            "Obezbeđivanje tehničke izvodljivosti <em>\"UI/UX\"</em> dizajna"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "Septembar 2017 - Feb 2018",
+          "company": "<em>\"Digital Share\"</em> (praksa), Kragujevac",
+          "position": "<em>\"Front-End Web Developer\"</em>",
+          "description": [
+            "Održavanje sajta putem ažuriranja, testiranja, objavljivanja i manipulacije postojećeg izvornog koda",
+            "Razvijanje funkcionalne i privlačne veb i mobilne aplikacije bazirane na upotrebljivosti",
+            "Prepoznavanje i rešavanje problema sa različitim veb pitanjima i problemima kodiranja"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "Septembar 2015 - Februar 2017",
+          "company": "<em>\"Arena Fun Factory\"</em>, Kragujevac",
+          "position": "Instruktor sportskih aktivnosti",
+          "description": [
+            "Razvoj programa obuke",
+            "Pomoć u sportskoj promociji"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "Oktobar 2014 - Avgust 2015",
+          "club": "<em>\"K.K. Zicer\"</em>, Gruža",
+          "position": "Pomoćni trener mlađih selekcija",
+          "description": [
+            "Organizovanje i usmeravanje individualnih i malih grupa u vežbanju po nalogu glavnog trenera",
+            "Pomaganje glavnom treneru sa instrukcijama igrača o pravilima, propisima, opremi i sportim tehnikama"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "Jun 2013 - Jun 2014",
+          "company": "<em>\"Republički geodetski zavod\"</em>, Kragujevac",
+          "position": "Informatičar",
+          "description": [
+            "Instaliranje i konfigurisanje računarskog hardvera, operativnih sistema i aplikacija",
+            "Praćenje i održavanje računarskog sistema i mreža",
+            "Problemi sa sistemskim i mrežnim rešavanjem problema, dijagnostikovanje i rešavanje hardverskih ili softverskih grešaka"
+          ],
+          "isVisible": true
+        },
+        {
+          "year": "Jul 2011 - Jun 2013",
+          "club": "<em>\"Ž.K.K. Radnički\"</em>, Kragujevac",
+          "position": "Glavni trener mlađih selekcija",
+          "description": [
+            "Pomoć u svakodnevnoj obuci dece na treninzima i utakmicama tokom vikenda",
+            "Stalna procena igrača"
+          ],
+          "isVisible": true
+        }
+      ]
+    },
+    "technicalSkills": {
+      "title": "Tehničke veštine"
+    },
+    "navigation": [
+      {
+        "name": "Početak"
+      },
+      {
+        "name": "Lični podaci"
+      },
+      {
+        "name": "Jezici"
+      },
+      {
+        "name": "Projekti"
+      },
+      {
+        "name": "Hobiji"
+      },
+      {
+        "name": "Vozačka dozvola"
+      },
+      {
+        "name": "O meni"
+      },
+      {
+        "name": "Obrazovanje"
+      },
+      {
+        "name": "Istorija zapošljavanja"
+      },
+      {
+        "name": "Tehničke veštine"
+      }
+    ],
+    "colorModePicker": [
+      {
+        "name": "system",
+        "text": "Sistem"
+      },
+      {
+        "name": "light",
+        "text": "Svetlo"
+      },
+      {
+        "name": "dark",
+        "text": "Tamno"
+      },
+      {
+        "name": "sepia",
+        "text": "Sepia"
+      }
+    ]
+  },
+  "languageBar": [
+    {
+      "name": "En",
+      "title": "English language"
+    },
+    {
+      "name": "Ср-Ћир",
+      "code": "cir",
+      "title": "Српски језик - Ћирилица"
+    },
+    {
+      "name": "Sr-Lat",
+      "code": "lat",
+      "title": "Srpski jezik - Latinica"
+    }
+  ],
+  "projects": [
+    {
+      "icon": "ana-i-ivan",
+      "url": "https://ana-i-ivan.com/",
+      "isVisible": true
+    },
+    {
+      "icon": "EderHotel",
+      "url": "https://www.hoteleder.com/en/request",
+      "isVisible": true
+    },
+    {
+      "icon": "formosa",
+      "url": "https://formosa.webtory.rs/",
+      "isVisible": true
+    },
+    {
+      "icon": "vuejs",
+      "url": "http://vuejs-deploy-jokac88.s3-website.us-east-2.amazonaws.com/",
+      "isVisible": false
+    },
+    {
+      "icon": "monster-game",
+      "url": "https://jokac88.github.io/projects/projects/monster-game/",
+      "isVisible": true
+    },
+    {
+      "icon": "vuejs",
+      "url": "http://wonderful-quotes.s3-website.eu-central-1.amazonaws.com/",
+      "isVisible": false
+    },
+    {
+      "icon": "basket-top",
+      "url": "http://baskettop.rs/",
+      "isVisible": true
+    },
+    {
+      "icon": "hair",
+      "url": "https://jokac88.github.io/projects/projects/hair/",
+      "isVisible": true
+    },
+    {
+      "icon": "real-estate",
+      "url": "https://jokac88.github.io/projects/projects/real_estate/",
+      "isVisible": true
+    },
+    {
+      "icon": "spotter",
+      "url": "https://lubar.ch/",
+      "isVisible": false
+    },
+    {
+      "icon": "car-parts",
+      "url": "https://jokac88.github.io/projects/projects/car/",
+      "isVisible": true
+    },
+    {
+      "icon": "spa",
+      "url": "https://jokac88.github.io/projects/projects/spa/",
+      "isVisible": true
+    },
+    {
+      "icon": "degordian",
+      "url": "https://jokac88.github.io/projects/projects/degordian/",
+      "isVisible": true
+    },
+    {
+      "icon": "magmell",
+      "url": "https://jokac88.github.io/projects/projects/magmell/",
+      "isVisible": true
+    }
+  ],
+  "technicalSkills": [
+    {
+      "name": "HTML5",
+      "icon": "html",
+      "color": "#db562f",
+      "percentage": "p100",
+      "isVisible": true
+    },
+    {
+      "name": "CSS3",
+      "icon": "css",
+      "color": "#3270b4",
+      "percentage": "p100",
+      "isVisible": true
+    },
+    {
+      "name": "JavaScript",
+      "icon": "javascript",
+      "color": "#f0df31",
+      "percentage": "p75",
+      "isVisible": true
+    },
+    {
+      "name": "Vue 3/2",
+      "icon": "vuejs",
+      "color": "#52b783",
+      "percentage": "p50",
+      "isVisible": true
+    },
+    {
+      "name": "Nuxt 3/2",
+      "icon": "nuxtjs",
+      "color": "#40da83",
+      "percentage": "p50",
+      "isVisible": true
+    },
+    {
+      "name": "React/Native",
+      "icon": "react",
+      "color": "#4cd6fd",
+      "percentage": "p25",
+      "isVisible": true
+    },
+    {
+      "name": "jQuery",
+      "icon": "jquery",
+      "color": "#2a66aa",
+      "percentage": "p75",
+      "isVisible": true
+    },
+    {
+      "name": "SCSS",
+      "icon": "scss",
+      "color": "#c76a99",
+      "percentage": "p75",
+      "isVisible": true
+    },
+    {
+      "name": "Bootstrap 4",
+      "icon": "bootstrap",
+      "color": "#740bf3",
+      "percentage": "p75",
+      "isVisible": true
+    },
+    {
+      "name": "Photoshop",
+      "icon": "photoshop",
+      "color": "#18163f",
+      "percentage": "p50",
+      "isVisible": false
+    },
+    {
+      "name": "WordPress",
+      "icon": "wordpress",
+      "color": "#21759b",
+      "percentage": "p25",
+      "isVisible": false
+    },
+    {
+      "name": "Laravel",
+      "icon": "laravel",
+      "color": "#f55247",
+      "percentage": "p25",
+      "isVisible": false
+    }
+  ],
+  "navigation": [
+    {
+      "url": "page"
+    },
+    {
+      "url": "personal-info"
+    },
+    {
+      "url": "languages"
+    },
+    {
+      "url": "projects"
+    },
+    {
+      "url": "hobbies"
+    },
+    {
+      "url": "driving-license"
+    },
+    {
+      "url": "about-me"
+    },
+    {
+      "url": "education"
+    },
+    {
+      "url": "employment-history"
+    },
+    {
+      "url": "technical-skills"
+    }
+  ]
+}
