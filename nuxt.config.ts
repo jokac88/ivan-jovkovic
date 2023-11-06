@@ -13,7 +13,7 @@ export default defineNuxtConfig({
                 },
                 {
                     name: 'keywords',
-                    content: 'HTML5, CSS3, JavaScript, Vue, Nuxt, React, React Native, jQuery, SCSS, Bootstrap 4'
+                    content: 'HTML5, CSS3, JavaScript, Vue 3/2, Nuxt 3/2, React, React Native, Angular.js, jQuery, SCSS, Bootstrap 4'
                 },
                 {
                     name: 'author',
