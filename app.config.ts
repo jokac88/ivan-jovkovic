@@ -47,6 +47,7 @@ export default defineAppConfig({
             'vuejs': 'vscode-icons:file-type-vue',
             'nuxtjs': 'vscode-icons:file-type-nuxt',
             'react': 'vscode-icons:file-type-reactjs',
+            'angular': 'vscode-icons:file-type-angular',
             'jquery': 'devicon:jquery',
             'scss': 'vscode-icons:file-type-scss',
             'bootstrap': 'devicon:bootstrap',

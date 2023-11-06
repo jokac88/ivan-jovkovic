@@ -1195,6 +1195,13 @@
       "isVisible": true
     },
     {
+      "name": "Angular.js",
+      "icon": "angular",
+      "color": "#bb1b34",
+      "percentage": "p25",
+      "isVisible": true
+    },
+    {
       "name": "jQuery",
       "icon": "jquery",
       "color": "#2a66aa",
