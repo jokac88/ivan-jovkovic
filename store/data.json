@@ -191,6 +191,19 @@
       },
       "employmentHistory": [
         {
+          "year": "January 2024 -",
+          "company": "<em>\"Builtt — Powered by Degordian\"</em>, Belgrade",
+          "position": "Front-End Developer",
+          "description": [
+            "Developing web applications, web shops, and websites for various brands",
+            "Developing new features, maintaining, and improving existing projects",
+            "Creating a library and reusable code for future use",
+            "Mentoring of younger junior colleagues",
+            "Testing code for different devices and browsers"
+          ],
+          "isVisible": true
+        },
+        {
           "year": "August 2021 - June 2023",
           "company": "<em>\"Wireless Media\"</em>, Belgrade",
           "position": "Front-End Developer",
@@ -551,12 +564,25 @@
       },
       "employmentHistory": [
         {
+          "year": "Јануар 2024 -",
+          "company": "<em>\"Builtt - Powered by Degordian\"</em>, Београд",
+          "position": "<em>\"Front-End Developer\"</em>",
+          "description": [
+            "Развијање веб апликација, веб <em>\"shop\"</em>-ова и веб-сајтова за различите брендове",
+            "Развијање нових функција, одржавање и побољшавање постојећих пројеката",
+            "Прављење библиотеке и кода који се може поново користити убудуће",
+            "Менторисање млађих колега јуниора",
+            "Тестирање кода за различите уређаје и прегледаче"
+          ],
+          "isVisible": true
+        },
+        {
           "year": "Август 2021 - Јун 2023",
           "company": "<em>\"Wireless Media\"</em>, Београд",
           "position": "<em>\"Front-End Developer\"</em>",
           "description": [
             "Развијање нових функција окренутих корисницима",
-            "Сарадња са бацк-енд програмерима и веб дизајнерима ради побољшања употребљивости",
+            "Сарадња са <em>\"back-end\"</em> програмерима и веб дизајнерима ради побољшања употребљивости",
             "Оптимизација апликација за максималну брзину",
             "Писање докумената и водича са функционалним захтевима"
           ],
@@ -569,7 +595,7 @@
           "description": [
             "Писање добро дизајнираног, проверљивог, ефикасног кода коришћењем најбољих пракси развоја софтвера",
             "Креирање изгледа веб странице/корисничког интерфејса коришћењем стандардних <em>\"HTML/CSS\"</em> пракси",
-            "Интегрисање података из разних бацк-енд сервиса и база података",
+            "Интегрисање података из разних <em>\"back-end\"</em> сервиса и база података",
             "Прикупљање и усавршавање спецификација и захтева на основу техничких потреба"
           ],
           "isVisible": true
@@ -909,12 +935,25 @@
       },
       "employmentHistory": [
         {
+          "year": "Januar 2024 -",
+          "company": "<em>\"Builtt - Powered by Degordian\"</em>, Beograd",
+          "position": "<em>\"Front-End Developer\"</em>",
+          "description": [
+            "Razvijanje veb aplikacija, veb <em>\"shop\"</em>-ova i veb-sajtova za različite brendove",
+            "Razvijanje novih funkcija, održavanje i poboljšavanje postojećih projekata",
+            "Pravljenje biblioteke i koda koji se može ponovo koristiti ubuduće",
+            "Mentorisanje mlađih kolega juniora",
+            "Testiranje koda za različite uređaje i pregledače"
+          ],
+          "isVisible": true
+        },
+        {
           "year": "Avgust 2021 - Jun 2023",
           "company": "<em>\"Wireless Media\"</em>, Beograd",
           "position": "<em>\"Front-End Developer\"</em>",
           "description": [
             "Razvijanje novih funkcija okrenutih korisnicima",
-            "Saradnja sa back-end programerima i veb dizajnerima radi poboljšanja upotrebljivosti",
+            "Saradnja sa <em>\"back-end\"</em> programerima i veb dizajnerima radi poboljšanja upotrebljivosti",
             "Optimizacija aplikacija za maksimalnu brzinu",
             "Pisanje dokumenata i vodiča sa funkcionalnim zahtevima"
           ],
@@ -927,7 +966,7 @@
           "description": [
             "Pisanje dobro dizajniranog, proverljivog, efikasnog koda korišćenjem najboljih praksi razvoja softvera",
             "Kreiranje izgleda veb stranice/korisničkog interfejsa korišćenjem standardnih <em>\"HTML/CSS\"</em> praksi",
-            "Integrisanje podataka iz raznih back-end servisa i baza podataka",
+            "Integrisanje podataka iz raznih <em>\"back-end\"</em> servisa i baza podataka",
             "Prikupljanje i usavršavanje specifikacija i zahteva na osnovu tehničkih potreba"
           ],
           "isVisible": true
