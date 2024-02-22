@@ -61,6 +61,12 @@
           "name": "Ana & Ivan"
         },
         {
+          "name": "Builtt"
+        },
+        {
+          "name": "Pokemon"
+        },
+        {
           "name": "Eder Hotel"
         },
         {
@@ -420,6 +426,14 @@
       "projects": [
         {
           "name": "Ана и Иван"
+        },
+        {
+          "name": "<em>\"Builtt\"</em>",
+          "title": "Builtt"
+        },
+        {
+          "name": "<em>\"Pokemon\"</em>",
+          "title": "Pokemon"
         },
         {
           "name": "<em>\"Eder Hotel\"</em>",
@@ -793,6 +807,14 @@
           "name": "Ana i Ivan"
         },
         {
+          "name": "<em>\"Builtt\"</em>",
+          "title": "Builtt"
+        },
+        {
+          "name": "<em>\"Pokemon\"</em>",
+          "title": "Pokemon"
+        },
+        {
           "name": "<em>\"Eder Hotel\"</em>",
           "title": "Eder Hotel"
         },
@@ -1122,6 +1144,16 @@
     {
       "icon": "ana-i-ivan",
       "url": "https://ana-i-ivan.com/",
+      "isVisible": true
+    },
+    {
+      "icon": "Builtt",
+      "url": "https://builtt-e10136fe5c38.herokuapp.com/login",
+      "isVisible": true
+    },
+    {
+      "icon": "Pokemon",
+      "url": "https://pokemon-react-8593f19600e1.herokuapp.com/login",
       "isVisible": true
     },
     {

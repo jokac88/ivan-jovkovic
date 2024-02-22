@@ -1,13 +1,16 @@
 <template>
   <section class="loading">
 
-    <div class="loading__wrapper">
+    <div class="loading__wrapper--loader">
 
       <NuxtImg
           src="/svg/loader.svg"
           alt="/svg/loader.svg"
           class="loading__loader"
       />
+    </div>
+
+    <div class="loading__wrapper--logo">
 
       <NuxtImg
           src="/svg/logo.svg"
@@ -40,20 +43,24 @@
     z-index: -1;
   }
 
-  &__wrapper {
+  &__wrapper--loader {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  &__loader,
-  &__logo {
+  &__wrapper--logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   &__loader {
-    position: absolute;
     width: 280px;
 
     @include target-mq(lg) {
@@ -70,5 +77,3 @@
   }
 }
 </style>
-<script setup lang="ts">
-</script>
