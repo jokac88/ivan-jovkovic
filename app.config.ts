@@ -10,16 +10,15 @@ export default defineAppConfig({
             'personal-info': 'iconamoon:profile-fill',
             'languages': 'ion:language',
             'projects': 'icon-park-outline:web-page',
-
-            // Hobbies
             'hobbies': 'fluent:sport-basketball-20-filled',
-            'arrow': 'solar:double-alt-arrow-right-linear',
-
             'driving-license': 'ic:round-drive-eta',
             'about-me': 'fluent:pen-20-filled',
             'education': 'ic:round-school',
             'employment-history': 'material-symbols:work',
             'technical-skills': 'mingcute:code-fill',
+
+            // Hobbies
+            'arrow': 'solar:double-alt-arrow-right-linear',
 
             // Projects
             'ana-i-ivan': 'streamline-emojis:revolving-hearts',
