@@ -43,13 +43,16 @@ export default defineAppConfig({
             'html': 'vscode-icons:file-type-html',
             'css': 'vscode-icons:file-type-css',
             'javascript': 'vscode-icons:file-type-js-official',
+            'typescript': 'vscode-icons:file-type-typescript-official',
             'vuejs': 'vscode-icons:file-type-vue',
             'nuxtjs': 'vscode-icons:file-type-nuxt',
             'react': 'vscode-icons:file-type-reactjs',
             'angular': 'vscode-icons:file-type-angular',
-            'jquery': 'devicon:jquery',
             'scss': 'vscode-icons:file-type-scss',
+            'tailwind': 'vscode-icons:file-type-tailwind',
             'bootstrap': 'devicon:bootstrap',
+            'docker': 'vscode-icons:file-type-docker2',
+            'jquery': 'devicon:jquery',
 
             // Back to top
             'back-to-top': 'radix-icons:pin-top'

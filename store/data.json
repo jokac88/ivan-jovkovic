@@ -1226,50 +1226,92 @@
     {
       "name": "HTML5",
       "icon": "html",
-      "color": "#db562f",
+      "color": "#e44f26",
       "percentage": "p100",
       "isVisible": true
     },
     {
       "name": "CSS3",
       "icon": "css",
-      "color": "#3270b4",
+      "color": "#1572b6",
       "percentage": "p100",
       "isVisible": true
     },
     {
       "name": "JavaScript",
       "icon": "javascript",
-      "color": "#f0df31",
+      "color": "#f5de19",
       "percentage": "p75",
+      "isVisible": true
+    },
+    {
+      "name": "TypeScript",
+      "icon": "typescript",
+      "color": "#3178c6",
+      "percentage": "p50",
       "isVisible": true
     },
     {
       "name": "Vue 3/2",
       "icon": "vuejs",
-      "color": "#52b783",
-      "percentage": "p50",
+      "color": "#41b883",
+      "percentage": "p75",
       "isVisible": true
     },
     {
       "name": "Nuxt 3/2",
       "icon": "nuxtjs",
-      "color": "#40da83",
-      "percentage": "p50",
+      "color": "#00dc82",
+      "percentage": "p75",
       "isVisible": true
     },
     {
       "name": "React/Native",
       "icon": "react",
-      "color": "#4cd6fd",
+      "color": "#00d8ff",
       "percentage": "p25",
       "isVisible": true
     },
     {
       "name": "Angular.js",
       "icon": "angular",
-      "color": "#bb1b34",
+      "color": "#c3002f",
       "percentage": "p25",
+      "isVisible": true
+    },
+    {
+      "name": "SCSS",
+      "icon": "scss",
+      "color": "#cd6799",
+      "percentage": "p75",
+      "isVisible": true
+    },
+    {
+      "name": "Tailwind",
+      "icon": "tailwind",
+      "color": "#44a8b3",
+      "percentage": "p75",
+      "isVisible": true
+    },
+    {
+      "name": "Bootstrap",
+      "icon": "bootstrap",
+      "color": "#7211f6",
+      "percentage": "p75",
+      "isVisible": true
+    },
+    {
+      "name": "Spring Boot",
+      "icon": "SpringBoot",
+      "color": "#6db33f",
+      "percentage": "p25",
+      "isVisible": true
+    },
+    {
+      "name": "Docker",
+      "icon": "docker",
+      "color": "#0096e6",
+      "percentage": "p75",
       "isVisible": true
     },
     {
@@ -1277,21 +1319,7 @@
       "icon": "jquery",
       "color": "#2a66aa",
       "percentage": "p75",
-      "isVisible": true
-    },
-    {
-      "name": "SCSS",
-      "icon": "scss",
-      "color": "#c76a99",
-      "percentage": "p75",
-      "isVisible": true
-    },
-    {
-      "name": "Bootstrap 4",
-      "icon": "bootstrap",
-      "color": "#740bf3",
-      "percentage": "p75",
-      "isVisible": true
+      "isVisible": false
     },
     {
       "name": "Photoshop",
