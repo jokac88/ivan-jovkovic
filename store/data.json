@@ -64,7 +64,7 @@
           "name": "Builtt"
         },
         {
-          "name": "Pokemon"
+          "name": "PokéAPI"
         },
         {
           "name": "Eder Hotel"
@@ -141,14 +141,14 @@
       "education": [
         {
           "year": "October 2008 - July 2011",
-          "college": "<em>\"Technical College of Applied Sciences\"</em>, Kragujevac",
+          "college": "Technical College of Applied Sciences, Kragujevac",
           "department": "Informatics",
           "degree": "Bachelor degree in Computer Science",
           "isVisible": true
         },
         {
           "year": "January 2017 - March 2017",
-          "course": "<em>\"ICT Cluster of Central Serbia\"</em>, Kragujevac",
+          "course": "ICT Cluster of Central Serbia, Kragujevac",
           "description": {
             "text": "Intensive course for beginners in language independent programming in languages:",
             "technologies": [
@@ -160,7 +160,7 @@
         },
         {
           "year": "March 2017 - May 2017",
-          "course": "<em>\"ICT Cluster of Central Serbia\"</em>, Kragujevac",
+          "course": "ICT Cluster of Central Serbia, Kragujevac",
           "description": {
             "text": "Intensive course for beginners in language independent programming in language:",
             "technologies": [
@@ -171,7 +171,7 @@
         },
         {
           "year": "July 2017 - August 2017",
-          "company": "<em>\"Emisia Consulting\"</em>, Kragujevac",
+          "company": "Emisia Consulting, Kragujevac",
           "course": "UI Workshop",
           "description": {
             "text": "Developing an application for displaying information about festivals in Serbia using:",
@@ -198,7 +198,7 @@
       "employmentHistory": [
         {
           "year": "January 2024 - Present",
-          "company": "<em>\"Builtt — Powered by Degordian\"</em>, Belgrade",
+          "company": "Builtt — Powered by Degordian, Belgrade",
           "position": "Front-End Developer",
           "description": [
             "Developing web applications, web shops, and websites for various brands",
@@ -211,7 +211,7 @@
         },
         {
           "year": "August 2021 - June 2023",
-          "company": "<em>\"Wireless Media\"</em>, Belgrade",
+          "company": "Wireless Media, Belgrade",
           "position": "Front-End Developer",
           "description": [
             "Developing new user-facing features",
@@ -223,7 +223,7 @@
         },
         {
           "year": "December 2020 - August 2021",
-          "company": "<em>\"NF Innova\"</em>, Belgrade",
+          "company": "New Frontier Innova, Belgrade",
           "position": "Web Developer",
           "description": [
             "Writing well designed, testable, efficient code by using best software development practices",
@@ -235,7 +235,7 @@
         },
         {
           "year": "May 2019 - April 2020",
-          "company": "<em>\"Q Agency\"</em>, Zagreb (remote)",
+          "company": "Q Agency, Zagreb (remote)",
           "position": "Junior JavaScript Developer",
           "description": [
             "Developing new user-facing features",
@@ -247,7 +247,7 @@
         },
         {
           "year": "March 2018 - May 2019",
-          "company": "<em>\"Webtory\"</em>, Kragujevac",
+          "company": "Webtory, Kragujevac",
           "position": "Front-End Web Developer",
           "description": [
             "Developing new user-facing features",
@@ -259,7 +259,7 @@
         },
         {
           "year": "September 2017 - Feb 2018",
-          "company": "<em>\"Digital Share\"</em> (internship), Kragujevac",
+          "company": "Digital Share (internship), Kragujevac",
           "position": "Front-End Web Developer",
           "description": [
             "Maintenance of website through the updating, testing, publishing and manipulating of existing source code",
@@ -270,7 +270,7 @@
         },
         {
           "year": "September 2015 - February 2017",
-          "company": "<em>\"Arena Fun Factory\"</em>, Kragujevac",
+          "company": "Arena Fun Factory, Kragujevac",
           "position": "Instructor of sports activities",
           "description": [
             "Developing training programmes",
@@ -290,7 +290,7 @@
         },
         {
           "year": "Junе 2013 - Junе 2014",
-          "company": "<em>\"Republic Geodetic Authority\"</em>, Kragujevac",
+          "company": "Republic Geodetic Authority, Kragujevac",
           "position": "Computer scientist",
           "description": [
             "Installing and configuring computer hardware, operating systems and applications",
@@ -432,8 +432,8 @@
           "title": "Builtt"
         },
         {
-          "name": "<em>\"Pokemon\"</em>",
-          "title": "Pokemon"
+          "name": "<em>\"PokéAPI\"</em>",
+          "title": "PokéAPI"
         },
         {
           "name": "<em>\"Eder Hotel\"</em>",
@@ -811,8 +811,8 @@
           "title": "Builtt"
         },
         {
-          "name": "<em>\"Pokemon\"</em>",
-          "title": "Pokemon"
+          "name": "<em>\"PokéAPI\"</em>",
+          "title": "PokéAPI"
         },
         {
           "name": "<em>\"Eder Hotel\"</em>",
@@ -1152,7 +1152,7 @@
       "isVisible": true
     },
     {
-      "icon": "Pokemon",
+      "icon": "PokéAPI",
       "url": "https://pokemon-react-8593f19600e1.herokuapp.com/login",
       "isVisible": true
     },
