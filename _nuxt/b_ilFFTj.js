@@ -1,0 +1,1 @@
+import{_ as t}from"./Vw5eQKc5.js";import{u as e,g as r,o as n}from"./C_cYrzqC.js";import"./CRyS6srg.js";import"./CvPl5tTm.js";import"./X0a4MBat.js";const u={__name:"index",setup(a){return e({htmlAttrs:{lang:"en"},title:"Ivan Jovkovic | Front-End Developer"}),(p,s)=>{const o=t;return n(),r(o)}}};export{u as default};
