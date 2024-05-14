@@ -52,6 +52,7 @@ export default defineAppConfig({
             'tailwind': 'vscode-icons:file-type-tailwind',
             'bootstrap': 'devicon:bootstrap',
             'docker': 'vscode-icons:file-type-docker2',
+            'mongodb': 'devicon:mongodb',
             'jquery': 'devicon:jquery',
 
             // Back to top

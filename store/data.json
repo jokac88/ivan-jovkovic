@@ -1311,7 +1311,14 @@
       "name": "Docker",
       "icon": "docker",
       "color": "#0096e6",
-      "percentage": "p75",
+      "percentage": "p50",
+      "isVisible": true
+    },
+    {
+      "name": "MongoDB",
+      "icon": "mongodb",
+      "color": "#409433",
+      "percentage": "p25",
       "isVisible": true
     },
     {
