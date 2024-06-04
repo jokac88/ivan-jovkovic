@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import Header from "~/components/common/Header.vue";
 import LanguageCard from "~/components/boxes/LanguageCard.vue";
 

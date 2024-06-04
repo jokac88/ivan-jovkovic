@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import Name from "~/components/elements/section-left/Name.vue";
 import Picture from "~/components/elements/section-left/Picture.vue";
 import QrCode from "~/components/elements/section-left/QrCode.vue";

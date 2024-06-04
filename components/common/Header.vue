@@ -1,13 +1,17 @@
-<script setup>
+<script setup lang="ts">
 import ButtonToggle from "~/components/boxes/ButtonToggle.vue";
+import type {Ref} from "@vue/reactivity";
 
-const props = defineProps({
+interface PropsTypes {
   header: {
-    type: Object,
-    default: () => {
-    }
+    icon: string;
+    isToggle: Ref<boolean>;
+    shape: string;
+    title: string;
   }
-});
+}
+
+const props = defineProps<PropsTypes>();
 
 defineEmits(['buttonToggle']);
 

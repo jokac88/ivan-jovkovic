@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const props = defineProps({
   pace: {
     type: Object,
@@ -7,7 +7,7 @@ const props = defineProps({
   }
 });
 
-const pageWrapper = ref();
+const pageWrapper = ref<HTMLElement | null>(null);
 const pageWrapperScrollTop = ref(props.pace.pageWrapperScrollTop);
 const pageWrapperScrollHeight = ref(props.pace.pageWrapperScrollHeight);
 
@@ -15,25 +15,26 @@ const paceWidth = computed(() => useRound(pageWrapperScrollTop.value / pageWrapp
 
 const onScroll = useThrottle(() => {
   if (window.innerWidth < 1210) {
-    pageWrapperScrollTop.value = useRound(pageWrapper.value.scrollTop);
+    pageWrapperScrollTop.value = useRound(pageWrapper.value?.scrollTop ?? 0);
   }
 }, 300);
 
 const onResize = useThrottle(() => {
   if (window.innerWidth < 1210) {
-    pageWrapper.value = document.querySelector('.page__wrapper');
-    pageWrapper.value.addEventListener('scroll', onScroll);
-    pageWrapperScrollTop.value = useRound(pageWrapper.value.scrollTop);
-    pageWrapperScrollHeight.value = pageWrapper.value.scrollHeight - pageWrapper.value.clientHeight;
+    pageWrapper.value = document.querySelector('.page__wrapper') as HTMLElement || null;
+    pageWrapper.value?.addEventListener('scroll', onScroll);
+    pageWrapperScrollTop.value = useRound(pageWrapper.value?.scrollTop);
+    pageWrapperScrollHeight.value = pageWrapper.value.scrollHeight - pageWrapper.value?.clientHeight;
   }
 }, 300);
 
 onMounted(() => {
   if (window.innerWidth < 1210) {
-    pageWrapper.value = document.querySelector('.page__wrapper');
-    pageWrapper.value.addEventListener('scroll', onScroll);
-    pageWrapperScrollTop.value = useRound(pageWrapper.value.scrollTop);
-    pageWrapperScrollHeight.value = pageWrapper.value.scrollHeight - pageWrapper.value.clientHeight;
+    pageWrapper.value = document.querySelector('.page__wrapper') as HTMLElement || null;
+    pageWrapper.value?.addEventListener('scroll', onScroll);
+    pageWrapperScrollTop.value = useRound(pageWrapper.value?.scrollTop);
+    pageWrapperScrollHeight.value = pageWrapper.value?.scrollHeight - pageWrapper.value?.clientHeight;
+
   }
 
   window.addEventListener('resize', onResize);
@@ -41,7 +42,7 @@ onMounted(() => {
 
 onBeforeUnmount(() => {
   if (window.innerWidth < 1210) {
-    pageWrapper.value.removeEventListener('scroll', onScroll);
+    pageWrapper.value?.removeEventListener('scroll', onScroll);
   }
 
   window.removeEventListener('resize', onResize);

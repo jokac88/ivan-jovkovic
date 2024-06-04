@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import LanguageBarCard from "~/components/boxes/LanguageBarCard.vue";
 
 const props = defineProps({

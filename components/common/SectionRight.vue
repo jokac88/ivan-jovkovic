@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import AboutMe from "~/components/elements/section-right/AboutMe.vue";
 import Timeline from "~/components/elements/section-right/Timeline.vue";
 import TechnicalSkills from "~/components/elements/section-right/TechnicalSkills.vue";

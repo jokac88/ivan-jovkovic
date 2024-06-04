@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import HamburgerMenu from "~/components/boxes/HamburgerMenu.vue";
 import LanguageBar from "~/components/common/LanguageBar.vue";
 

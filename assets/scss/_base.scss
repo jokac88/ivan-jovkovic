@@ -5,12 +5,12 @@ body {
   font-family: $font;
   word-break: break-word;
   overflow-x: hidden;
-  scrollbar-color: $color-secondary $color-primary;
-  scrollbar-width: thin;
 
   @include target-mq(lg) {
     overflow-y: hidden;
     height: auto;
+    scrollbar-color: $color-secondary $color-primary;
+    scrollbar-width: thin;
   }
 }
 

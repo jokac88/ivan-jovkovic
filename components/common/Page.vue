@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import Pace from "~/components/common/Pace.vue";
 import TopBar from "~/components/common/TopBar.vue";
 import SectionLeft from "~/components/common/SectionLeft.vue";
@@ -66,12 +66,6 @@ const sectionRight = {
     />
 
     <div
-        class="page__overlay"
-        @click="$emit('closeSideNav')"
-        v-touch:swipe.left="emitCloseSideNav"
-    />
-
-    <div
         class="page__wrapper border__gradient"
         v-touch:swipe.right="emitOpenSideNav"
     >
@@ -80,6 +74,12 @@ const sectionRight = {
 
       <SectionRight :section-right="sectionRight" @button-toggle="$emit('buttonToggle')"/>
     </div>
+
+    <div
+        class="page__overlay"
+        @click="emitCloseSideNav"
+        v-touch:swipe.left="emitCloseSideNav"
+    />
   </section>
 </template>
 

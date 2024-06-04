@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const props = defineProps({
   sideNavCard: {
     type: Object,
@@ -13,11 +13,11 @@ const {name, url} = props.sideNavCard;
 const emitCloseSideNav = () => {
   emit('closeSideNav');
 
-  const pageWrapper = document.querySelector('.page__wrapper');
-  const sectionOffsetTop = document.querySelector(`.${url}`).offsetTop - 69;
+  const pageWrapper = document.querySelector('.page__wrapper') as HTMLElement || null;
+  const sectionOffsetTop = document.querySelector(`.${url}`) as HTMLElement || null;
 
-  pageWrapper.scrollTo({
-    top: sectionOffsetTop,
+  pageWrapper?.scrollTo({
+    top: sectionOffsetTop ? sectionOffsetTop.offsetTop - 69 : 0,
     behavior: "smooth",
   });
 };

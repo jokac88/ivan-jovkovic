@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const props = defineProps({
   backToTop: {
     type: Object,
@@ -7,7 +7,7 @@ const props = defineProps({
   }
 });
 
-const pageWrapper = ref();
+const pageWrapper = ref<HTMLElement | null>(null);
 const element = ref();
 const currentScrollYPosition = ref(0);
 
@@ -16,7 +16,7 @@ const isVisible = computed(() => currentScrollYPosition.value >= 600);
 const onScroll = useThrottle(() => {
   const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
 
-  currentScrollYPosition.value = window.innerWidth >= 1210 ? scrollTop : pageWrapper.value.scrollTop;
+  currentScrollYPosition.value = window.innerWidth >= 1210 ? scrollTop : pageWrapper.value?.scrollTop ?? 0;
 }, 300);
 
 const onResize = useThrottle(() => {
@@ -24,7 +24,7 @@ const onResize = useThrottle(() => {
   element.value.addEventListener('scroll', onScroll);
 
   const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-  currentScrollYPosition.value = window.innerWidth >= 1210 ? scrollTop : pageWrapper.value.scrollTop;
+  currentScrollYPosition.value = window.innerWidth >= 1210 ? scrollTop : pageWrapper.value?.scrollTop ?? 0;
 }, 300);
 
 function scrollToTop() {
@@ -35,7 +35,7 @@ function scrollToTop() {
 }
 
 onMounted(() => {
-  pageWrapper.value = document.querySelector('.page__wrapper');
+  pageWrapper.value = document.querySelector('.page__wrapper') as HTMLElement || null;
   element.value = window.innerWidth >= 1210 ? window : pageWrapper.value;
   element.value.addEventListener('scroll', onScroll);
   window.addEventListener('resize', onResize);

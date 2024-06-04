@@ -1,11 +1,13 @@
-<script setup>
-const props = defineProps({
+<script setup lang="ts">
+import type {Ref} from "@vue/reactivity";
+
+interface PropsTypes {
   buttonToggle: {
-    type: Object,
-    default: () => {
-    }
+    isToggle: Ref<boolean>;
   }
-});
+}
+
+const props = defineProps<PropsTypes>();
 
 const emit = defineEmits(['buttonToggle']);
 

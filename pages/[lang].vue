@@ -1,7 +1,9 @@
-<script setup>
+<script setup lang="ts">
+import App from "~/components/App.vue";
+
 definePageMeta({
   validate: async ({params}) => {
-    return ['cir', 'lat'].includes(params.lang);
+    return ['cir', 'lat'].includes(<string>params.lang);
   }
 });
 

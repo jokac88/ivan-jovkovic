@@ -1,36 +1,32 @@
-<script setup>
+<script setup lang="ts">
 import SideNavCard from "~/components/boxes/SideNavCard.vue";
 import ColorModePicker from "~/components/common/ColorModePicker.vue";
+import type {SideNavTypes, SectionTypes,ColorModePickerTypes} from "~/types/types";
 
-const props = defineProps({
-  sideNav: {
-    type: Object,
-    default: () => {
-    }
-  },
-  colorModePicker: {
-    type: Object,
-    default: () => {
-    }
-  }
-});
+interface PropsTypes {
+  sideNav: SideNavTypes[];
+  colorModePicker: ColorModePickerTypes[];
+}
+
+const props = defineProps<PropsTypes>();
 
 const emit = defineEmits(['closeSideNav']);
 
-const pageWrapper = ref();
-const sideNav = ref([]);
-const sideNavActiveSection = ref([]);
+const pageWrapper = ref<HTMLElement | null>(null);
+const sideNav = ref<SideNavTypes[]>([]);
+const sideNavActiveSection = ref<SideNavTypes>({});
 
 watch(() => props.sideNav, (newValue) => {
   if (newValue) {
     sideNav.value = mapSideNav(props.sideNav);
 
-    sideNavActiveSection.value = sideNav.value
-        .filter(({offsetTop}) => offsetTop <= pageWrapper.value.scrollTop)
-        .pop();
+    const scrollTop = pageWrapper.value?.scrollTop ?? 0;
 
-    sideNav.value = sideNav.value
-        .map(({url, isActive, ...rest}) => ({
+    sideNavActiveSection.value = sideNav.value
+        .filter(({offsetTop}) => offsetTop !== undefined && offsetTop <= scrollTop)
+        .pop() ?? {};
+
+    sideNav.value = sideNav.value.map(({url, isActive, ...rest}) => ({
           url,
           ...rest,
           isActive: url === sideNavActiveSection.value.url
@@ -38,22 +34,26 @@ watch(() => props.sideNav, (newValue) => {
   }
 });
 
-const mapSideNav = ((array) => array
-    .map(({url, name}, index) => ({
-      url,
-      name,
-      offsetTop: document.querySelector(`.${url}`).offsetTop - 70,
-      isActive: !index
-    })));
+const mapSideNav = ((array: SectionTypes[]) => array.map(({url, name}, index) => {
+  const element = document.querySelector(`.${url}`) as HTMLElement | null;
+
+  return {
+    url,
+    name,
+    offsetTop: element ? element.offsetTop - 70 : 0,
+    isActive: !index
+  }
+}));
 
 const onScroll = useThrottle(() => {
   if (window.innerWidth < 1210) {
-    sideNavActiveSection.value = sideNav.value
-        .filter(({offsetTop}) => offsetTop <= pageWrapper.value.scrollTop)
-        .pop();
+    const scrollTop = pageWrapper.value?.scrollTop ?? 0;
 
-    sideNav.value = sideNav.value
-        .map(({url, isActive, ...rest}) => ({
+    sideNavActiveSection.value = sideNav.value
+        .filter(({offsetTop}) => offsetTop !== undefined && offsetTop <= scrollTop)
+        .pop() ?? {};
+
+    sideNav.value = sideNav.value.map(({url, isActive, ...rest}) => ({
           url,
           ...rest,
           isActive: url === sideNavActiveSection.value.url
@@ -64,20 +64,20 @@ const onScroll = useThrottle(() => {
 const onResize = useThrottle(() => {
   if (window.innerWidth >= 1210) {
     emit('closeSideNav');
-    pageWrapper.value = document.querySelector('.page__wrapper');
-    pageWrapper.value.removeEventListener('scroll', onScroll);
+    pageWrapper.value = document.querySelector('.page__wrapper') as HTMLElement || null;
+    pageWrapper.value?.removeEventListener('scroll', onScroll);
   } else {
-    pageWrapper.value = document.querySelector('.page__wrapper');
-    pageWrapper.value.addEventListener('scroll', onScroll);
+    pageWrapper.value = document.querySelector('.page__wrapper') as HTMLElement || null;
+    pageWrapper.value?.addEventListener('scroll', onScroll);
+    const scrollTop = pageWrapper.value?.scrollTop;
 
     sideNav.value = mapSideNav(props.sideNav);
 
     sideNavActiveSection.value = sideNav.value
-        .filter(({offsetTop}) => offsetTop <= pageWrapper.value.scrollTop)
-        .pop();
+        .filter(({offsetTop}) => offsetTop !== undefined && offsetTop <= scrollTop)
+        .pop() ?? {};
 
-    sideNav.value = sideNav.value
-        .map(({url, isActive, ...rest}) => ({
+    sideNav.value = sideNav.value.map(({url, isActive, ...rest}) => ({
           url,
           ...rest,
           isActive: url === sideNavActiveSection.value.url
@@ -89,9 +89,9 @@ const emitCloseSideNav = () => emit('closeSideNav');
 
 onMounted(() => {
   if (window.innerWidth < 1210) {
-    pageWrapper.value = document.querySelector('.page__wrapper');
+    pageWrapper.value = document.querySelector('.page__wrapper') as HTMLElement || null;
     sideNav.value = mapSideNav(props.sideNav);
-    pageWrapper.value.addEventListener('scroll', onScroll);
+    pageWrapper.value?.addEventListener('scroll', onScroll);
   }
 
   window.addEventListener('resize', onResize);
@@ -99,7 +99,7 @@ onMounted(() => {
 
 onBeforeUnmount(() => {
   if (window.innerWidth < 1210) {
-    pageWrapper.value.removeEventListener('scroll', onScroll);
+    pageWrapper.value?.removeEventListener('scroll', onScroll);
   }
 
   window.removeEventListener('resize', onResize);
@@ -107,7 +107,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <section class="side-nav" v-touch:swipe.left="emitCloseSideNav">
+  <section class="side-nav">
 
     <div class="side-nav__wrapper">
 
@@ -118,7 +118,7 @@ onBeforeUnmount(() => {
           <SideNavCard
               v-for="sideNavCard in sideNav"
               :side-nav-card="sideNavCard"
-              @close-side-nav="$emit('closeSideNav')"
+              @close-side-nav="emitCloseSideNav"
           />
         </ul>
       </nav>

@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import ColorModePickerCard from "~/components/boxes/ColorModePickerCard.vue";
 
 defineProps({
