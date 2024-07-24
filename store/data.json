@@ -125,66 +125,7 @@
     },
     "aboutMe": {
       "title": "About me",
-      "text": "I have been working as a Front-End Developer for 5 years. I enjoy building websites and I am eager to learn new skills every day. I take challenges as inspirations and always looking for improvements. Very persistent and hardworking. Good at working both individually and in a team. I always complete every task."
-    },
-    "education": {
-      "title": "Education",
-      "properties": {
-        "year": "Year",
-        "college": "College",
-        "department": "Department",
-        "degree": "Degree",
-        "course": "Course",
-        "description": "Description",
-        "company": "Company"
-      },
-      "education": [
-        {
-          "year": "October 2008 - July 2011",
-          "college": "Technical College of Applied Sciences, Kragujevac",
-          "department": "Informatics",
-          "degree": "Bachelor degree in Computer Science",
-          "isVisible": true
-        },
-        {
-          "year": "January 2017 - March 2017",
-          "course": "ICT Cluster of Central Serbia, Kragujevac",
-          "description": {
-            "text": "Intensive course for beginners in language independent programming in languages:",
-            "technologies": [
-              "HTML5",
-              "CSS3"
-            ]
-          },
-          "isVisible": true
-        },
-        {
-          "year": "March 2017 - May 2017",
-          "course": "ICT Cluster of Central Serbia, Kragujevac",
-          "description": {
-            "text": "Intensive course for beginners in language independent programming in language:",
-            "technologies": [
-              "JavaScript"
-            ]
-          },
-          "isVisible": true
-        },
-        {
-          "year": "July 2017 - August 2017",
-          "company": "Emisia Consulting, Kragujevac",
-          "course": "UI Workshop",
-          "description": {
-            "text": "Developing an application for displaying information about festivals in Serbia using:",
-            "technologies": [
-              "ExtJS",
-              "Google Maps API",
-              "SCSS",
-              "Firebase"
-            ]
-          },
-          "isVisible": true
-        }
-      ]
+      "text": "I have been working as a Front-End Developer for over 5 years. I enjoy building websites and I am eager to learn new skills every day. I take challenges as inspirations and always looking for improvements. Very persistent and hardworking. Good at working both individually and in a team. I always complete every task."
     },
     "employmentHistory": {
       "title": "Employment history",
@@ -210,7 +151,7 @@
           "isVisible": true
         },
         {
-          "year": "August 2021 - June 2023",
+          "year": "August 2021 - October 2023",
           "company": "Wireless Media, Belgrade",
           "position": "Front-End Developer",
           "description": [
@@ -234,7 +175,7 @@
           "isVisible": true
         },
         {
-          "year": "May 2019 - April 2020",
+          "year": "May 2019 - August 2020",
           "company": "Q Agency, Zagreb (remote)",
           "position": "Junior JavaScript Developer",
           "description": [
@@ -312,6 +253,65 @@
         }
       ]
     },
+    "education": {
+      "title": "Education",
+      "properties": {
+        "year": "Year",
+        "college": "College",
+        "department": "Department",
+        "degree": "Degree",
+        "course": "Course",
+        "description": "Description",
+        "company": "Company"
+      },
+      "education": [
+        {
+          "year": "October 2008 - July 2011",
+          "college": "Technical College of Applied Sciences, Kragujevac",
+          "department": "Informatics",
+          "degree": "Bachelor degree in Computer Science",
+          "isVisible": true
+        },
+        {
+          "year": "January 2017 - March 2017",
+          "course": "ICT Cluster of Central Serbia, Kragujevac",
+          "description": {
+            "text": "Intensive course for beginners in language independent programming in languages:",
+            "technologies": [
+              "HTML5",
+              "CSS3"
+            ]
+          },
+          "isVisible": true
+        },
+        {
+          "year": "March 2017 - May 2017",
+          "course": "ICT Cluster of Central Serbia, Kragujevac",
+          "description": {
+            "text": "Intensive course for beginners in language independent programming in language:",
+            "technologies": [
+              "JavaScript"
+            ]
+          },
+          "isVisible": true
+        },
+        {
+          "year": "July 2017 - August 2017",
+          "company": "Emisia Consulting, Kragujevac",
+          "course": "UI Workshop",
+          "description": {
+            "text": "Developing an application for displaying information about festivals in Serbia using:",
+            "technologies": [
+              "ExtJS",
+              "Google Maps API",
+              "SCSS",
+              "Firebase"
+            ]
+          },
+          "isVisible": true
+        }
+      ]
+    },
     "technicalSkills": {
       "title": "Technical skills"
     },
@@ -338,10 +338,10 @@
         "name": "About me"
       },
       {
-        "name": "Education"
+        "name": "Employment history"
       },
       {
-        "name": "Employment history"
+        "name": "Education"
       },
       {
         "name": "Technical skills"
@@ -506,66 +506,7 @@
     },
     "aboutMe": {
       "title": "О мени",
-      "text": "Радим као <em>\"Front-End Developer\"</em> око 5 година. Уживам у изградњи веб страница и тежим ка томе да научим нове ствари сваког дана. Изазове сматрам као инспирацију и увек гледам да напредујем. Веома сам упоран и вредан. Добар у појединачном и тимском раду. Увек завршим сваки задатак."
-    },
-    "education": {
-      "title": "Образовање",
-      "properties": {
-        "year": "Година",
-        "college": "Факултет",
-        "department": "Одсек",
-        "degree": "Степен",
-        "course": "Курс",
-        "description": "Опис",
-        "company": "Фирма"
-      },
-      "education": [
-        {
-          "year": "Октобар 2008 - Јул 2011",
-          "college": "<em>\"Висока техничка школа струковних студија\"</em>, Крагујевац",
-          "department": "Информатика",
-          "degree": "Дипломирани струковни информатичар",
-          "isVisible": true
-        },
-        {
-          "year": "Јануар 2017 - Март 2017",
-          "course": "<em>\"ИКТ Кластер Централне Србије\"</em>, Крагујевац",
-          "description": {
-            "text": "Интезивни курс за почетнике у програмирању за самостално обављање програмирања:",
-            "technologies": [
-              "<em>\"HTML5\"</em>",
-              "<em>\"CSS3\"</em>"
-            ]
-          },
-          "isVisible": true
-        },
-        {
-          "year": "Март 2017 - Мај 2017",
-          "course": "<em>\"ИКТ Кластер Централне Србије\"</em>, Крагујевац",
-          "description": {
-            "text": "Интензивни курс за почетнике у програмирању за самостално обављање програмирања на програмском језику:",
-            "technologies": [
-              "<em>\"JavaScript\"</em>"
-            ]
-          },
-          "isVisible": true
-        },
-        {
-          "year": "Јул 2017 - Август 2017",
-          "company": "<em>\"Emisia Consulting\"</em>, Крагујевац",
-          "course": "<em>\"UI\"</em> Радионица",
-          "description": {
-            "text": "Развијање апликација за приказ информација о фестивалима на простору Србије:",
-            "technologies": [
-              "<em>\"ExtJS\"</em>",
-              "<em>\"Google Maps API\"</em>",
-              "<em>\"SCSS\"</em>",
-              "<em>\"Firebase\"</em>"
-            ]
-          },
-          "isVisible": true
-        }
-      ]
+      "text": "Радим као <em>\"Front-End Developer\"</em> преко 5 година. Уживам у изградњи веб страница и тежим ка томе да научим нове ствари сваког дана. Изазове сматрам као инспирацију и увек гледам да напредујем. Веома сам упоран и вредан. Добар у појединачном и тимском раду. Увек завршим сваки задатак."
     },
     "employmentHistory": {
       "title": "Историја запошљавања",
@@ -591,7 +532,7 @@
           "isVisible": true
         },
         {
-          "year": "Август 2021 - Јун 2023",
+          "year": "Август 2021 - Октобар 2023",
           "company": "<em>\"Wireless Media\"</em>, Београд",
           "position": "<em>\"Front-End Developer\"</em>",
           "description": [
@@ -615,7 +556,7 @@
           "isVisible": true
         },
         {
-          "year": "Мај 2019 - Април 2020",
+          "year": "Мај 2019 - Август 2020",
           "company": "<em>\"Q Agency\"</em>, Загреб (на даљину)",
           "position": "<em>\"Junior JavaScript Developer\"</em>",
           "description": [
@@ -691,6 +632,65 @@
         }
       ]
     },
+    "education": {
+      "title": "Образовање",
+      "properties": {
+        "year": "Година",
+        "college": "Факултет",
+        "department": "Одсек",
+        "degree": "Степен",
+        "course": "Курс",
+        "description": "Опис",
+        "company": "Фирма"
+      },
+      "education": [
+        {
+          "year": "Октобар 2008 - Јул 2011",
+          "college": "<em>\"Висока техничка школа струковних студија\"</em>, Крагујевац",
+          "department": "Информатика",
+          "degree": "Дипломирани струковни информатичар",
+          "isVisible": true
+        },
+        {
+          "year": "Јануар 2017 - Март 2017",
+          "course": "<em>\"ИКТ Кластер Централне Србије\"</em>, Крагујевац",
+          "description": {
+            "text": "Интезивни курс за почетнике у програмирању за самостално обављање програмирања:",
+            "technologies": [
+              "<em>\"HTML5\"</em>",
+              "<em>\"CSS3\"</em>"
+            ]
+          },
+          "isVisible": true
+        },
+        {
+          "year": "Март 2017 - Мај 2017",
+          "course": "<em>\"ИКТ Кластер Централне Србије\"</em>, Крагујевац",
+          "description": {
+            "text": "Интензивни курс за почетнике у програмирању за самостално обављање програмирања на програмском језику:",
+            "technologies": [
+              "<em>\"JavaScript\"</em>"
+            ]
+          },
+          "isVisible": true
+        },
+        {
+          "year": "Јул 2017 - Август 2017",
+          "company": "<em>\"Emisia Consulting\"</em>, Крагујевац",
+          "course": "<em>\"UI\"</em> Радионица",
+          "description": {
+            "text": "Развијање апликација за приказ информација о фестивалима на простору Србије:",
+            "technologies": [
+              "<em>\"ExtJS\"</em>",
+              "<em>\"Google Maps API\"</em>",
+              "<em>\"SCSS\"</em>",
+              "<em>\"Firebase\"</em>"
+            ]
+          },
+          "isVisible": true
+        }
+      ]
+    },
     "technicalSkills": {
       "title": "Техничке вештине"
     },
@@ -717,10 +717,10 @@
         "name": "О мени"
       },
       {
-        "name": "Образовање"
+        "name": "Историја запошљавања"
       },
       {
-        "name": "Историја запошљавања"
+        "name": "Образовање"
       },
       {
         "name": "Техничке вештине"
@@ -885,66 +885,7 @@
     },
     "aboutMe": {
       "title": "O meni",
-      "text": "Radim kao <em>\"Front-End Developer\"</em> oko 5 godina. Uživam u izgradnji web stranica i težim ka tome da naučim nove stvari svakoga dana. Izazove smatram kao inspiraciju i uvek gledam da napredujem. Veoma sam uporan i vredan. Dobar u pojedinačnom i timskom radu. Uvek završim svaki zadatak."
-    },
-    "education": {
-      "title": "Obrazovanje",
-      "properties": {
-        "year": "Godina",
-        "college": "Fakultet",
-        "department": "Odsek",
-        "degree": "Stepen",
-        "course": "Kurs",
-        "description": "Opis",
-        "company": "Firma"
-      },
-      "education": [
-        {
-          "year": "Oktobar 2008 - Jul 2011",
-          "college": "<em>\"Visoka tehnička škola strukovnih studija\"</em>, Kragujevac",
-          "department": "Informatika",
-          "degree": "Diplomirani strukovni informatičar",
-          "isVisible": true
-        },
-        {
-          "year": "Januar 2017 - Mart 2017",
-          "course": "<em>\"IKT Klaster Centralne Srbije\"</em>, Kragujevac",
-          "description": {
-            "text": "Intenzivni kurs za početnike u programiranju za samostalno obavljanje programiranja:",
-            "technologies": [
-              "<em>\"HTML5\"</em>",
-              "<em>\"CSS3\"</em>"
-            ]
-          },
-          "isVisible": true
-        },
-        {
-          "year": "Mart 2017 - Maj 2017",
-          "course": "<em>\"IKT Klaster Centralne Srbije\"</em>, Kragujevac",
-          "description": {
-            "text": "Intenzivni kurs za početnike u programiranju za samostalno obavljanje programiranja u programskom jeziku:",
-            "technologies": [
-              "<em>\"JavaScript\"</em>"
-            ]
-          },
-          "isVisible": true
-        },
-        {
-          "year": "Jul 2017 - Avgust 2017",
-          "company": "<em>\"Emisia Consulting\"</em>, Kragujevac",
-          "course": "<em>\"UI\"</em> Radionica",
-          "description": {
-            "text": "Razvijanje aplikacije za prikaz informacija o festivalima na prostoru Srbije:",
-            "technologies": [
-              "<em>\"ExtJS\"</em>",
-              "<em>\"Google Maps API\"</em>",
-              "<em>\"SCSS\"</em>",
-              "<em>\"Firebase\"</em>"
-            ]
-          },
-          "isVisible": true
-        }
-      ]
+      "text": "Radim kao <em>\"Front-End Developer\"</em> preko 5 godina. Uživam u izgradnji web stranica i težim ka tome da naučim nove stvari svakoga dana. Izazove smatram kao inspiraciju i uvek gledam da napredujem. Veoma sam uporan i vredan. Dobar u pojedinačnom i timskom radu. Uvek završim svaki zadatak."
     },
     "employmentHistory": {
       "title": "Istorija zapošljavanja",
@@ -970,7 +911,7 @@
           "isVisible": true
         },
         {
-          "year": "Avgust 2021 - Jun 2023",
+          "year": "Avgust 2021 - Oktobar 2023",
           "company": "<em>\"Wireless Media\"</em>, Beograd",
           "position": "<em>\"Front-End Developer\"</em>",
           "description": [
@@ -994,7 +935,7 @@
           "isVisible": true
         },
         {
-          "year": "Maj 2019 - April 2020",
+          "year": "Maj 2019 - Avgust 2020",
           "company": "<em>\"Q Agency\"</em>, Zagreb (na daljinu)",
           "position": "<em>\"Junior JavaScript Developer\"</em>",
           "description": [
@@ -1070,6 +1011,65 @@
         }
       ]
     },
+    "education": {
+      "title": "Obrazovanje",
+      "properties": {
+        "year": "Godina",
+        "college": "Fakultet",
+        "department": "Odsek",
+        "degree": "Stepen",
+        "course": "Kurs",
+        "description": "Opis",
+        "company": "Firma"
+      },
+      "education": [
+        {
+          "year": "Oktobar 2008 - Jul 2011",
+          "college": "<em>\"Visoka tehnička škola strukovnih studija\"</em>, Kragujevac",
+          "department": "Informatika",
+          "degree": "Diplomirani strukovni informatičar",
+          "isVisible": true
+        },
+        {
+          "year": "Januar 2017 - Mart 2017",
+          "course": "<em>\"IKT Klaster Centralne Srbije\"</em>, Kragujevac",
+          "description": {
+            "text": "Intenzivni kurs za početnike u programiranju za samostalno obavljanje programiranja:",
+            "technologies": [
+              "<em>\"HTML5\"</em>",
+              "<em>\"CSS3\"</em>"
+            ]
+          },
+          "isVisible": true
+        },
+        {
+          "year": "Mart 2017 - Maj 2017",
+          "course": "<em>\"IKT Klaster Centralne Srbije\"</em>, Kragujevac",
+          "description": {
+            "text": "Intenzivni kurs za početnike u programiranju za samostalno obavljanje programiranja u programskom jeziku:",
+            "technologies": [
+              "<em>\"JavaScript\"</em>"
+            ]
+          },
+          "isVisible": true
+        },
+        {
+          "year": "Jul 2017 - Avgust 2017",
+          "company": "<em>\"Emisia Consulting\"</em>, Kragujevac",
+          "course": "<em>\"UI\"</em> Radionica",
+          "description": {
+            "text": "Razvijanje aplikacije za prikaz informacija o festivalima na prostoru Srbije:",
+            "technologies": [
+              "<em>\"ExtJS\"</em>",
+              "<em>\"Google Maps API\"</em>",
+              "<em>\"SCSS\"</em>",
+              "<em>\"Firebase\"</em>"
+            ]
+          },
+          "isVisible": true
+        }
+      ]
+    },
     "technicalSkills": {
       "title": "Tehničke veštine"
     },
@@ -1096,10 +1096,10 @@
         "name": "O meni"
       },
       {
-        "name": "Obrazovanje"
+        "name": "Istorija zapošljavanja"
       },
       {
-        "name": "Istorija zapošljavanja"
+        "name": "Obrazovanje"
       },
       {
         "name": "Tehničke veštine"
@@ -1373,10 +1373,10 @@
       "url": "about-me"
     },
     {
-      "url": "education"
+      "url": "employment-history"
     },
     {
-      "url": "employment-history"
+      "url": "education"
     },
     {
       "url": "technical-skills"

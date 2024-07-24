@@ -44,12 +44,12 @@ const employmentHistoryData = {
       />
 
       <Timeline
-          :timeline="educationData"
+          :timeline="employmentHistoryData"
           @button-toggle="$emit('buttonToggle')"
       />
 
       <Timeline
-          :timeline="employmentHistoryData"
+          :timeline="educationData"
           @button-toggle="$emit('buttonToggle')"
       />
 
