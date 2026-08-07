@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  compatibilityDate: '2025-07-15',
   devtools: {
     enabled: false
   },
@@ -48,19 +49,25 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxtjs/google-fonts',
     '@vite-pwa/nuxt',
-    'nuxt-icon',
-    'nuxt-lodash'
+    '@nuxt/icon',
+    '@vueuse/nuxt'
   ],
   vite: {
     css: {
       preprocessorOptions: {
         scss: {
           additionalData: `
-                        @use '@/assets/scss/_breakpoints' as *;
-                        @use '@/assets/scss/_variables.scss' as *;
-                    `
+            @use '@/assets/scss/_breakpoints' as *;
+            @use '@/assets/scss/_variables.scss' as *;
+          `
         }
       }
+    },
+    optimizeDeps: {
+      include: [
+        'vue3-touch-events',
+        'workbox-window'
+      ]
     }
   },
   pwa: {
@@ -94,7 +101,10 @@ export default defineNuxtConfig({
       ],
     },
     workbox: {
-      navigateFallback: '/'
+      navigateFallback: '/',
+      globPatterns: process.env.NODE_ENV === 'production'
+        ? ['_nuxt/builds/**/*.json', '**/*.{js,css,html,png,svg,ico}']
+        : ['**/*.{js,css,html,png,svg,ico}']
     },
     devOptions: {
       enabled: true,
