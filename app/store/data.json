@@ -33,10 +33,6 @@
       },
       "github": {
         "property": "GitHub"
-      },
-      "skype": {
-        "property": "Skype",
-        "value": "jokac88"
       }
     },
     "languages": {
@@ -59,6 +55,9 @@
       "projects": [
         {
           "name": "Roshtein"
+        },
+        {
+          "name": "GamblersArea"
         },
         {
           "name": "Grad Beograd"
@@ -127,7 +126,7 @@
     },
     "aboutMe": {
       "title": "About me",
-      "text": "Front-End Developer with 8+ years of experience in creating modern and functional websites. Motivated by daily learning and focused on continuous professional growth. I view challenges as inspiration for innovative solutions. Reliable, hardworking, and 100% dedicated to the successful completion of every project through teamwork or independent engagement."
+      "text": "Senior Software Engineer with 8+ years of experience in creating modern and functional websites. Motivated by daily learning and focused on continuous professional growth. I view challenges as inspiration for innovative solutions. Reliable, hardworking, and 100% dedicated to the successful completion of every project through teamwork or independent engagement."
     },
     "employmentHistory": {
       "title": "Employment history",
@@ -415,10 +414,6 @@
       },
       "github": {
         "property": "ГитХаб"
-      },
-      "skype": {
-        "property": "Скајп",
-        "value": "јокац88"
       }
     },
     "languages": {
@@ -442,6 +437,10 @@
         {
           "name": "<em>\"Roshtein\"</em>",
           "title": "Roshtein"
+        },
+        {
+          "name": "<em>\"GamblersArea\"</em>",
+          "title": "GamblersArea"
         },
         {
           "name": "Град Београд"
@@ -524,7 +523,7 @@
     },
     "aboutMe": {
       "title": "О мени",
-      "text": "Искусни <em>\"Front-End Developer\"</em> са више од 8 година успешног рада у индустрији. Посвећен сталном усавршавању и примени најсавременијих веб технологија. Истичем се упорношћу у решавању сложених изазова, детаљном приступу задацима и високој ефикасности, како у самосталном раду, тако и у тимском окружењу. Фокусиран на испоруку чистог кода и стално унапређење корисничког искуства."
+      "text": "Искусни <em>\"Senior Software Engineer\"</em> са више од 8 година успешног рада у индустрији. Посвећен сталном усавршавању и примени најсавременијих веб технологија. Истичем се упорношћу у решавању сложених изазова, детаљном приступу задацима и високој ефикасности, како у самосталном раду, тако и у тимском окружењу. Фокусиран на испоруку чистог кода и стално унапређење корисничког искуства."
     },
     "employmentHistory": {
       "title": "Историја запошљавања",
@@ -810,10 +809,6 @@
       },
       "github": {
         "property": "GitHab"
-      },
-      "skype": {
-        "property": "Skajp",
-        "value": "jokac88"
       }
     },
     "languages": {
@@ -836,6 +831,9 @@
       "projects": [
         {
           "name": "Roshtein"
+        },
+        {
+          "name": "GamblersArea"
         },
         {
           "name": "Grad Beograd"
@@ -918,7 +916,7 @@
     },
     "aboutMe": {
       "title": "O meni",
-      "text": "Iskusni <em>\"Front-End Developer\"</em> sa više od 8 godina uspešnog rada u industriji. Posvećen stalnom usavršavanju i primeni najsavremenijih veb tehnologija. Ističem se upornošću u rešavanju složenih izazova, detaljnom pristupu zadacima i visokoj efikasnosti, kako u samostalnom radu, tako i u timskom okruženju. Fokusiran na isporuku čistog koda i stalno unapređenje korisničkog iskustva."
+      "text": "Iskusni <em>\"Senior Software Engineer\"</em> sa više od 8 godina uspešnog rada u industriji. Posvećen stalnom usavršavanju i primeni najsavremenijih veb tehnologija. Ističem se upornošću u rešavanju složenih izazova, detaljnom pristupu zadacima i visokoj efikasnosti, kako u samostalnom radu, tako i u timskom okruženju. Fokusiran na isporuku čistog koda i stalno unapređenje korisničkog iskustva."
     },
     "employmentHistory": {
       "title": "Istorija zapošljavanja",
@@ -1193,6 +1191,11 @@
       "isVisible": true
     },
     {
+      "icon": "GamblersArea",
+      "url": "https://gamblersarea.com/",
+      "isVisible": true
+    },
+    {
       "icon": "GradBeograd",
       "url": "https://www.beograd.rs/",
       "isVisible": true
@@ -1310,8 +1313,8 @@
       "isVisible": true
     },
     {
-      "name": "Next",
-      "icon": "next",
+      "name": "Nextjs",
+      "icon": "nextjs",
       "color": "#000",
       "percentage": "p100",
       "isVisible": true
@@ -1361,7 +1364,7 @@
     {
       "name": "Laravel",
       "icon": "laravel",
-      "color": "#ff5252",
+      "color": "#ef382c",
       "percentage": "p25",
       "isVisible": true
     },
@@ -1404,13 +1407,6 @@
       "name": "WordPress",
       "icon": "wordpress",
       "color": "#21759b",
-      "percentage": "p25",
-      "isVisible": false
-    },
-    {
-      "name": "Laravel",
-      "icon": "laravel",
-      "color": "#f55247",
       "percentage": "p25",
       "isVisible": false
     }

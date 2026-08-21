@@ -72,11 +72,6 @@ interface GitHubTypes {
   property: string;
 }
 
-interface SkypeTypes {
-  property: string;
-  value: string;
-}
-
 interface PersonalInfoTypes {
   title: string;
   dateOfBirth: DateOfBirthTypes;
@@ -88,7 +83,6 @@ interface PersonalInfoTypes {
   website?: WebsiteTypes;
   linkedin?: LinkedInTypes;
   github?: GitHubTypes;
-  skype: SkypeTypes;
 }
 
 interface LanguageTypes {

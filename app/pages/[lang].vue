@@ -9,7 +9,7 @@ useHead({
   htmlAttrs: {
     lang: route.params.lang === 'cir' ? 'sr-Cyrl-RS' : 'sr-Cyrl-RS',
   },
-  title: route.params.lang === 'cir' ? 'Иван Јовковић | Front-End Developer' : 'Ivan Jovković | Front-End Developer'
+  title: route.params.lang === 'cir' ? 'Иван Јовковић | Senior Software Engineer' : 'Ivan Jovković | Senior Software Engineer'
 });
 </script>
 
