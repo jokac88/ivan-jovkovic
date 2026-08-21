@@ -1,1 +1,0 @@
-import{_ as o}from"./Dtme5MG9.js";import{e as t,u as n,g as r,o as a}from"./dvEB3oN2.js";import"./Bt4PklaA.js";import"./BNaE4taq.js";const f=t({__name:"index",setup(_){return n({htmlAttrs:{lang:"en"},title:"Ivan Jovkovic | Senior Software Engineer"}),(p,s)=>{const e=o;return a(),r(e)}}});export{f as default};
