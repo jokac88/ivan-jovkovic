@@ -70,8 +70,6 @@ const [personalInfoCollapse] = useAutoAnimate({
         >
           https://github.com/jokac88
         </a>
-        <p v-html="personalInfo.skype.property" class="personal-info__property"/>
-        <p class="personal-info__value">{{ personalInfo.skype.value }}</p>
       </div>
     </div>
   </section>
@@ -92,7 +90,7 @@ const [personalInfoCollapse] = useAutoAnimate({
     padding-bottom: 15px;
 
     &:last-child {
-      padding-bottom: 0;
+      margin-bottom: 0;
     }
   }
 

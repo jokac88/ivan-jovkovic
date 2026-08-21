@@ -3,7 +3,7 @@ useHead({
   htmlAttrs: {
     lang: 'en',
   },
-  title: 'Ivan Jovkovic | Front-End Developer'
+  title: 'Ivan Jovkovic | Senior Software Engineer'
 });
 </script>
 

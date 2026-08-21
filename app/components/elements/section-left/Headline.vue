@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const headline = '{{ Front-End Developer }}';
+const headline = '{{ Senior Software Engineer }}';
 </script>
 
 <template>
