@@ -1,1 +1,0 @@
-import{F as e,u as t,y as n}from"./BI8hgaLt.js";import{d as r}from"#entry";import{t as i}from"./CXjex5Vt.js";var a=n({__name:`index`,setup(n){return r({htmlAttrs:{lang:`en`},title:`Ivan Jovkovic | Senior Software Engineer`}),(n,r)=>{let a=i;return e(),t(a)}}});export{a as default};
