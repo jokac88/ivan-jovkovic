@@ -50,7 +50,7 @@ export default defineAppConfig({
       'nextjs': 'vscode-icons:file-type-light-next',
       'vuejs': 'vscode-icons:file-type-vue',
       'nuxtjs': 'vscode-icons:file-type-nuxt',
-      'react': 'vscode-icons:file-type-reactjs',
+      'react': 'vscode-icons:file-type-reactjs-official',
       'angular': 'devicon:angularjs',
       'scss': 'vscode-icons:file-type-scss',
       'tailwind': 'vscode-icons:file-type-tailwind',
